@@ -22,3 +22,5 @@ Route::get('/short', function () {
 Route::post('/short' , 'URL\UrlController@short');
 
 Route::get('/short/{link}' , 'URL\UrlController@shortLink');
+
+//ends here
